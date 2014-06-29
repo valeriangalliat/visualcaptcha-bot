@@ -4,6 +4,11 @@ visualCaptcha Bot
 Automate [visualCaptcha](https://github.com/emotionLoop/visualCaptcha),
 "the best captcha alternative".
 
+Overview
+--------
+
+![visualCaptcha Bot](bot.gif)
+
 Description
 -----------
 
@@ -110,3 +115,16 @@ Then, the steps are the following:
 * compare it to the target MD5 sum.
 
 When the sum match, we can just simulate a click on the right image.
+
+Misc
+----
+
+Commands used to generate the GIF:
+
+```sh
+W=1680
+H=1050
+L=$(((W - 768) / 2))
+
+ffmpeg -f x11grab -s "$Wx$H" -i :0.0+nomouse -vf "crop=768:768:$L:0, scale=512:512" bot.gif
+```
