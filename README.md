@@ -10,8 +10,8 @@ Description
 I just wanted to show how easy it is to automate the visualCaptcha solution.
 
 After adding the bookmarklet, go to <http://demo.visualcaptcha.net/> and
-launch the bookmarklet (or just copy the script in the JavaScript console).
-The right image should be automatically selected.
+launch it (or just copy the script in the JavaScript console). The right
+image should be automatically selected.
 
 You can renew the challenge and test it again and again. It will work with
 a 100% success rate unless new images were added since I computed the
