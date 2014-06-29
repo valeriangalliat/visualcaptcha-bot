@@ -20,7 +20,11 @@ images list.
 Installation
 ------------
 
-Add this bookmarklet and run it on a page containing a visualCaptcha.
+Add this bookmarklet and run it on a page containing a visualCaptcha
+(or just paste it in the JavaScript console).
+
+Note: if you use NoScript, you'll have to (temporarily) allow
+`www.myersdaily.org` and `raw.githubusercontent.com`.
 
 ```js
 (function(){function a(a,b){var c=document.createElement("script");c.src=a,c.onload=b,document.head.appendChild(c)}function b(b){"md5"in window?b():a("http://www.myersdaily.org/joseph/javascript/md5.js",b)}function c(b){"visualCaptchaBot"in window?b():a("https://raw.githubusercontent.com/valeriangalliat/visualcaptcha-bot/master/bot.js",b)}function d(){visualCaptchaBot.main()}b(c.bind(this,d))}());
