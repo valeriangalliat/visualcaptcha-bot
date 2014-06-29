@@ -4,29 +4,6 @@ window.visualCaptchaBot = (function () {
     return {
         list: Array.prototype.slice.call.bind(Array.prototype.slice),
 
-        /*
-
-        git clone https://github.com/emotionLoop/visualCaptcha-packagist.git
-        cd visualCaptcha-packagist/src/visualCaptcha/assets/images
-
-        find . -not -name '*@2x.png' -name '*.png' \
-            | xargs md5sum \
-            | awk '
-                BEGIN {
-                    print "{"
-                }
-
-                {
-                    print "    \"" $1 "\": \"" substr($2, 3, length($2) - 6) "\","
-                }
-
-                END {
-                    print "}"
-                }
-            '
-
-        */
-
         map: {
             '9d0f04ddc7e5f13b33a7c842152df633': 'key',
             '0249cdb3d986e3f6e83d700735395b72': 'car',
