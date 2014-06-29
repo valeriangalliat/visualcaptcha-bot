@@ -1,8 +1,8 @@
 visualCaptcha Bot
 =================
 
-Automate [visualCaptcha](https://github.com/emotionLoop/visualCaptcha),
-"the best captcha alternative".
+Automate [visualCaptcha](http://visualcaptcha.net/), "the best captcha
+alternative".
 
 Overview
 --------
