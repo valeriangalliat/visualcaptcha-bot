@@ -7,7 +7,7 @@ alternative".
 Overview
 --------
 
-![visualCaptcha Bot](bot.gif)
+[![visualCaptcha Bot](bot-512x512.gif)](bot-768x768.gif)
 
 Description
 -----------
