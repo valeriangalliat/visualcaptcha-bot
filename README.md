@@ -1,4 +1,4 @@
-visualCaptcha Bot
+visualCaptcha bot
 =================
 
 Automate [visualCaptcha](http://visualcaptcha.net/), "the best captcha
